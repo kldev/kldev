@@ -22,11 +22,11 @@ specialists and the business to deliver reliable systems, and I've built and led
 - **Containers and GitOps**: Docker, Kubernetes, Helm, Argo CD
 - **Frontend and mobile**: React, TypeScript, Vue, Flutter
 - **Legacy modernization**: step by step, without stopping the business (strangler pattern, incremental migration)
+- **Modernizing** I can work on a large legacy ERP and rewrite into .NET 10 event-driven services running on Kubernetes.
 
-## Now
-
-- Modernizing a large legacy ERP into .NET 10 event-driven services running on Kubernetes.
-- Bringing AI-assisted development (Claude Code, custom MCP servers) into the team's daily work.
+## Tools
+- AI-assisted development (Claude Code, custom MCP servers).
+- JetBrains **jd** (cli/CI tool)
 
 ## This account
 
@@ -36,5 +36,6 @@ This account is for side projects:
   .NET 10 modular monolith with DDD bounded contexts, EF Core on PostgreSQL, an outbox and Wolverine runner, and the
   Blazor UI and REST API in one host.
 
-My main profile is [@klopuchhart](https://github.com/klopuchhart), and the portfolio is at
+## Portfolio
+My portfolio is at
 [k-lopuch-84.onhercules.app](https://k-lopuch-84.onhercules.app/).
