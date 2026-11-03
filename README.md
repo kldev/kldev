@@ -1,6 +1,6 @@
 # Krzysztof Łopuch
 
-**Senior Developer & Architect** · building on .NET 10
+**Senior Developer & Architect** · building on .NET 10, Java, Kotlin
 
 I help businesses solve real problems with modern web technologies: backend systems, architecture and legacy
 modernization, from the code all the way to the business decisions behind it.
@@ -19,7 +19,7 @@ specialists and the business to deliver reliable systems, and I've built and led
 - **Scalable backend systems**: C#, .NET, Java, Spring Boot, Kotlin
 - **Databases and performance**: PostgreSQL, SQL Server, MySQL, Oracle
 - **Modern architectures**: microservices, CQRS, DDD and event-driven systems (RabbitMQ, MassTransit, Kafka)
-- **Containers and GitOps**: Docker, Kubernetes, Helm, Argo CD
+- **Containers and GitOps**: Docker, Kubernetes, Helm, Argo CD, Flux
 - **Frontend and mobile**: React, TypeScript, Vue, Flutter
 - **Legacy modernization**: step by step, without stopping the business (strangler pattern, incremental migration)
 - **Modernizing** I can work on a large legacy ERP and rewrite into .NET 10 event-driven services running on Kubernetes.
