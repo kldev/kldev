@@ -35,6 +35,13 @@ This account is for side projects:
 - [**shipment.app.ef**](https://github.com/kldev/shipment.app.ef): a delivery operator's back office (Glovo-style). A
   .NET 10 modular monolith with DDD bounded contexts, EF Core on PostgreSQL, an outbox and Wolverine runner, and the
   Blazor UI and REST API in one host.
+- [**own.sso.app**](https://github.com/kldev/own.sso.app): Great SSO, one sign-in for a team's applications through
+  GitHub, Google or a work Microsoft account, with no passwords and no registration. Its own narrow OpenID Connect
+  provider (code + PKCE, rotating refresh tokens), a Blazor admin panel, a REST API and an MCP server for Claude Code;
+  .NET 10, EF Core on PostgreSQL 18 with Liquibase, RabbitMQ and Wolverine.
+- [**fitness.app.ef**](https://github.com/kldev/fitness.app.ef): the back office of gyms and fitness clubs: members,
+  versioned price lists and passes, a front desk with QR check-ins, classes with bookings and a waitlist, and a member
+  portal. A multi-tenant .NET 10 modular monolith with Blazor Server, EF Core on PostgreSQL 18 and an MCP server.
 
 ## Portfolio
 My portfolio is at
