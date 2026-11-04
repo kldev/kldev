@@ -42,6 +42,10 @@ This account is for side projects:
 - [**fitness.app.ef**](https://github.com/kldev/fitness.app.ef): the back office of gyms and fitness clubs: members,
   versioned price lists and passes, a front desk with QR check-ins, classes with bookings and a waitlist, and a member
   portal. A multi-tenant .NET 10 modular monolith with Blazor Server, EF Core on PostgreSQL 18 and an MCP server.
+- [**delivery.platform.app**](https://github.com/kldev/delivery.platform.app): an event-driven microservices platform
+  for deliveries, payments, driver settlements and financial reconciliation. Independent services in Kotlin (JVM 25,
+  Spring Boot, Quarkus) and C# (ASP.NET Core) cooperate through REST and Apache Kafka events, each with its own
+  PostgreSQL database, behind a YARP gateway and a Blazor operations portal.
 
 ## Portfolio
 My portfolio is at
