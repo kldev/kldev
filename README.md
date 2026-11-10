@@ -66,7 +66,3 @@ This account is for side projects:
 - [**server.swarm.setup**](https://github.com/kldev/server.swarm.setup): one Ubuntu server running the demo
   applications above on a one-node Docker Swarm, each at its own HTTPS address, built from its repository on the server,
   with a local image registry and Mailpit.
-
-## Portfolio
-My portfolio is at
-[k-lopuch-84.onhercules.app](https://k-lopuch-84.onhercules.app/).
