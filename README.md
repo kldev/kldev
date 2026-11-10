@@ -2,6 +2,13 @@
 
 **Senior Developer & Architect** · building on .NET 10, Java, Kotlin
 
+<p>
+  <img alt=".NET 10" src="https://img.shields.io/badge/.NET%2010-512BD4?style=for-the-badge&logo=dotnet&logoColor=white" />
+  <img alt="C# 14" src="https://img.shields.io/badge/C%23%2014-239120?style=for-the-badge&logo=data%3Aimage%2Fsvg%2Bxml%3Bbase64%2CPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI%2BPHBhdGggZmlsbD0id2hpdGUiIGQ9Ik0xMiAxLjUgMjEuMSA2Ljc1djEwLjVMMTIgMjIuNSAyLjkgMTcuMjVWNi43NXoiLz48dGV4dCB4PSIxMiIgeT0iMTYiIGZvbnQtZmFtaWx5PSJBcmlhbCxzYW5zLXNlcmlmIiBmb250LXNpemU9IjkuNSIgZm9udC13ZWlnaHQ9IjcwMCIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZmlsbD0iIzIzOTEyMCI%2BQyM8L3RleHQ%2BPC9zdmc%2B" />
+  <img alt="Kotlin" src="https://img.shields.io/badge/Kotlin-7F52FF?style=for-the-badge&logo=kotlin&logoColor=white" />
+  <img alt="PostgreSQL 18" src="https://img.shields.io/badge/PostgreSQL%2018-4169E1?style=for-the-badge&logo=postgresql&logoColor=white" />
+</p>
+
 I help businesses solve real problems with modern web technologies: backend systems, architecture and legacy
 modernization, from the code all the way to the business decisions behind it.
 
@@ -46,6 +53,19 @@ This account is for side projects:
   for deliveries, payments, driver settlements and financial reconciliation. Independent services in Kotlin (JVM 25,
   Spring Boot, Quarkus) and C# (ASP.NET Core) cooperate through REST and Apache Kafka events, each with its own
   PostgreSQL database, behind a YARP gateway and a Blazor operations portal.
+
+- [**crm.kotlin.db.app**](https://github.com/kldev/crm.kotlin.db.app): a small CRM (clients, teams, projects with
+  stages and comments) and a service desk with one event stream per ticket. Kotlin + Spring Boot 4 for the API and
+  identity, all data logic in plain T-SQL procedures on SQL Server 2025, no ORM; a React front end (TanStack + HeroUI).
+- [**fixer.ef.app**](https://github.com/kldev/fixer.ef.app): WeFix, maintenance requests for residential buildings:
+  residents report, company admins assign, technicians fix. .NET 10 Minimal API with vertical slices and a DDD status
+  machine, EF Core 10 on PostgreSQL 18, JWT, Angular 22 + Clarity.
+- [**marten.task.event.store**](https://github.com/kldev/marten.task.event.store): Halcyon, an internal service desk
+  built on an event store: requests to IT, legal, HR and other teams in one pool, deadlines by priority, attachments in
+  S3 and every change as an event in the ticket's stream. .NET 10, Blazor Server, Marten.
+- [**server.swarm.setup**](https://github.com/kldev/server.swarm.setup): one Ubuntu server running the demo
+  applications above on a one-node Docker Swarm, each at its own HTTPS address, built from its repository on the server,
+  with a local image registry and Mailpit.
 
 ## Portfolio
 My portfolio is at
